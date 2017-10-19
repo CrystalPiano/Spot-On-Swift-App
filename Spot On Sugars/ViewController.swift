@@ -17,7 +17,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
     @IBOutlet weak var CarbsInputField: UITextField!
     @IBOutlet weak var BolusInputField: UITextField!
     @IBOutlet weak var GlucoseReadingLabel: UILabel!
-    @IBOutlet weak var SendToHealthApp: UIButton!
     @IBOutlet weak var ReadingDisplay: UILabel!
     @IBOutlet weak var CarbsDisplay: UILabel!
     @IBOutlet weak var BolusDisplay: UILabel!

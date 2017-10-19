@@ -126,7 +126,6 @@
                         <outlet property="GlucoseReadingLabel" destination="y2O-5X-H6W" id="sHD-tI-xqb"/>
                         <outlet property="ReadingDisplay" destination="wve-rv-hNz" id="C8l-5Y-eZB"/>
                         <outlet property="ReadingInputField" destination="xcf-fT-fmM" id="wNp-tD-zhz"/>
-                        <outlet property="SendToHealthApp" destination="s3f-Qx-MRf" id="dAe-ab-uQv"/>
                         <outlet property="backgroundImage" destination="3xd-hh-cZ3" id="ly1-rD-cLB"/>
                         <outlet property="datePicker" destination="Fq4-3W-tUB" id="IDy-0a-CRr"/>
                         <outlet property="pickerView" destination="x4u-Sv-Rg5" id="1R2-jT-2gx"/>

@@ -15,6 +15,12 @@
 		EF8BEA7F1F8DB7E5000CC93B /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8BEA7E1F8DB7E5000CC93B /* HealthKitUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EFC0D7DD1F980A6F00CA621B /* iPhone 7+ App Backdrop .png in Resources */ = {isa = PBXBuildFile; fileRef = EFC0D7DC1F980A6F00CA621B /* iPhone 7+ App Backdrop .png */; };
 		EFC0D7DE1F980A6F00CA621B /* iPhone 7+ App Backdrop .png in Resources */ = {isa = PBXBuildFile; fileRef = EFC0D7DC1F980A6F00CA621B /* iPhone 7+ App Backdrop .png */; };
+		EFE17C551F994BA000577A31 /* HealthKitIntegration .swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE17C541F994BA000577A31 /* HealthKitIntegration .swift */; };
+		EFE17C561F994BA000577A31 /* HealthKitIntegration .swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE17C541F994BA000577A31 /* HealthKitIntegration .swift */; };
+		EFE17C581F994FF300577A31 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE17C571F994FF300577A31 /* HealthKitSetupAssistant.swift */; };
+		EFE17C591F994FF300577A31 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE17C571F994FF300577A31 /* HealthKitSetupAssistant.swift */; };
+		EFE17C5B1F99540D00577A31 /* HealthStoreLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE17C5A1F99540D00577A31 /* HealthStoreLink.swift */; };
+		EFE17C5C1F99540D00577A31 /* HealthStoreLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE17C5A1F99540D00577A31 /* HealthStoreLink.swift */; };
 		EFE693D71F871BF900B422A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE693D61F871BF900B422A1 /* AppDelegate.swift */; };
 		EFE693D91F871BF900B422A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE693D81F871BF900B422A1 /* ViewController.swift */; };
 		EFE693DC1F871BF900B422A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE693DA1F871BF900B422A1 /* Main.storyboard */; };
@@ -39,6 +45,9 @@
 		EF8BEA7E1F8DB7E5000CC93B /* HealthKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKitUI.framework; path = System/Library/Frameworks/HealthKitUI.framework; sourceTree = SDKROOT; };
 		EFC0D7DC1F980A6F00CA621B /* iPhone 7+ App Backdrop .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7+ App Backdrop .png"; sourceTree = "<group>"; };
 		EFC0D7E21F98467700CA621B /* SpotOn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotOn.entitlements; sourceTree = "<group>"; };
+		EFE17C541F994BA000577A31 /* HealthKitIntegration .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthKitIntegration .swift"; sourceTree = "<group>"; };
+		EFE17C571F994FF300577A31 /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		EFE17C5A1F99540D00577A31 /* HealthStoreLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreLink.swift; sourceTree = "<group>"; };
 		EFE693D31F871BF900B422A1 /* SpotOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE693D61F871BF900B422A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE693D81F871BF900B422A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +115,11 @@
 				EFE693D61F871BF900B422A1 /* AppDelegate.swift */,
 				EFE693D81F871BF900B422A1 /* ViewController.swift */,
 				EFE693DA1F871BF900B422A1 /* Main.storyboard */,
+				EFE17C5A1F99540D00577A31 /* HealthStoreLink.swift */,
 				EFC0D7DC1F980A6F00CA621B /* iPhone 7+ App Backdrop .png */,
 				EF1CA0561F969ABF005CA599 /* ReadingsDataModel.swift */,
+				EFE17C571F994FF300577A31 /* HealthKitSetupAssistant.swift */,
+				EFE17C541F994BA000577A31 /* HealthKitIntegration .swift */,
 				EFE693DD1F871BF900B422A1 /* Assets.xcassets */,
 				EFE693DF1F871BF900B422A1 /* LaunchScreen.storyboard */,
 				EFE693E21F871BF900B422A1 /* Info.plist */,
@@ -236,9 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE17C551F994BA000577A31 /* HealthKitIntegration .swift in Sources */,
+				EFE17C5B1F99540D00577A31 /* HealthStoreLink.swift in Sources */,
 				EFE693D91F871BF900B422A1 /* ViewController.swift in Sources */,
 				EF1CA0571F969ABF005CA599 /* ReadingsDataModel.swift in Sources */,
 				EFE693D71F871BF900B422A1 /* AppDelegate.swift in Sources */,
+				EFE17C581F994FF300577A31 /* HealthKitSetupAssistant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE17C5C1F99540D00577A31 /* HealthStoreLink.swift in Sources */,
 				EF1CA0581F969ABF005CA599 /* ReadingsDataModel.swift in Sources */,
+				EFE17C591F994FF300577A31 /* HealthKitSetupAssistant.swift in Sources */,
+				EFE17C561F994BA000577A31 /* HealthKitIntegration .swift in Sources */,
 				EFE693EC1F871BF900B422A1 /* Spot_On_SugarsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,13 +15,13 @@ class ReadingsDataModel {
     var glucoseReading: Int = 0
     var carbsReading: Int = 0
     var bolusReading: Int = 0
-    var date: UIDatePicker?
-    var time: UIPickerView?
+    var date: Date
+    var time: Date
 
 
 //MARK: Initialization
 
-init?(glucoseReading: Int, carbsReading: Int, bolusReading: Int, date: UIDatePicker?, time: UIPickerView?) {
+init?(glucoseReading: Int, carbsReading: Int, bolusReading: Int, date: Date, time: Date) {
     
     // Initialize stored properties.
     self.glucoseReading = glucoseReading
